@@ -1147,3 +1147,25 @@ footer {
   margin-right: 0.88rem;
   font-weight: 500 !important;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+.nav {
+  display: flex;  /* Aligns children in a row */
+  justify-content: flex-end; /* Aligns buttons to the right */
+  align-items: center; /* Vertically centers the buttons */
+}
+
+.nav-button {
+  margin: 0 10px;  /* Adds space between the buttons */
+}
+
+.nav a {
+  text-decoration: none;  /* Removes underline from the link */
+}
+
+.nav img {
+  width: 40px;  /* Adjust the width of your sidebar image */
+  height: auto;
+}
